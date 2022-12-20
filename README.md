@@ -20,11 +20,11 @@
    $ git clone <url_of_fork>
 To get url of fork, click on code button and then copy:
 <img width="1006" alt="image" src="https://user-images.githubusercontent.com/83748468/208620047-c938eae6-0005-45d4-b131-8fdf4a595c00.png">
-6. Run the command:
-  $ python bandits.py <br>
+6. Run the command: <br>
+  $ python bandits.py <br><br>
 This will invoke the three agents, stationary, rolling and exponential and will walk you through choosing an arm based on the reward distribution.
 
-##Description of Files 
+## Description of Files 
 1. bandits.py - Contains driver code. Invokes the three reinforcement agents.
 2. alg.py - Contains src code for three agent classes and is invoked by bandits.py
 3. Bool.csv and RangeData.csv: Contains the reward distribution for discrete and continuous rewards, respectively
